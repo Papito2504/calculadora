@@ -1,0 +1,67 @@
+input {
+    border-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 8px;
+    outline-color: rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+  }
+  input::placeholder {
+    color: rgb(226, 15, 15);
+    text-align: center;
+
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+  }
+  h3 {
+    font-size: 18px;
+    margin-inline: 50px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+  }
+  h1 {
+    text-align: center;
+    color: rgb(255, 1, 1);
+    font-size: x-large;
+  }
+  .caixa {
+    position: relative;
+    border-left: 2px solid rgb(255, 1, 1);
+    border-right: 2px solid rgb(255, 1, 1);
+    border-top: 2px solid rgb(255, 1, 1);
+    border-bottom: 2px solid rgb(255, 1, 1);
+
+    width: 300px;
+    background-color: rgb(243, 191, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .caixa form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    border-color: rgb(255, 1, 1);
+  }
+
+  button {
+    color: rgb(255, 1, 1);
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 1, 1);
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 40px;
+    padding: 1px 6px;
+    font-family: 'Kanit', sans-serif;
+  }
